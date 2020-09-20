@@ -30,3 +30,57 @@ body{
   margin: 0 auto;
   padding: 0px 15px;
 }
+
+.rate-star {
+  &--slider {
+    margin-left: auto;
+  }
+  &--products{
+    margin-left: 15px;
+  }
+}
+
+.lnr-magnifier {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.lnr-chevron-left,
+.lnr-chevron-right {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.lnr-heart,
+.lnr-cart {
+  font-size: 15px;
+  font-weight: 400;
+  color: $violet;
+}
+
+.lnr-cart {
+  color: $blue;
+  &--header{
+    color: #7e8fa1;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+.lnr-alarm{
+  &--header{
+    color: #7e8fa1;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.lnr-envelope{
+  &--header{
+    color: #7e8fa1;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
